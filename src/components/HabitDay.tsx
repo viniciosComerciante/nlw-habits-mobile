@@ -8,6 +8,7 @@ export const DAY_SIZE =
   Dimensions.get("screen").width / 7 - (SCREEN_HORIZONTAL_PADDING + 5);
 
 export function HabitDay() {
+  console.log("s");
   return (
     <TouchableOpacity
       className="bg-zinc-900 rounded-lg border-2 m-1 border-zinc-800"
